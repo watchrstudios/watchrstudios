@@ -1,15 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Hero from './Components/Hero';
-import Footer from './Components/Footer';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Live from "./components/Live";
+import FAQs from "./components/FAQs";
+import Header from "./components/Header";
+import "./index.css"
+import Footer from "./Components/Footer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
- <>
-  <Hero/>
-  <Footer/>
- </>
-);
-
-
+const App = ()=> {
+    return (
+        <div>
+            <Navbar/>
+                <Hero/>
+                <Services/>
+                <Live/>
+                <FAQs/>
+                <Footer/>
+            {/* <Header/> */}
+        </div>
+    )
+}
+ReactDOM.render(<App/>, document.getElementById("root"))
