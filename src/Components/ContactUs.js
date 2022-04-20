@@ -21,8 +21,11 @@ function ContactUs() {
                 Your Message:
             </p>
             <input type="textarea"></input>
+            <div>
             <button className="contactUs">Submit</button>
+            </div>
         </div>
+        
     </div>
   )
 }

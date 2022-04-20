@@ -3,12 +3,12 @@ import React from "react"
 const Footer = () =>{
     return (
         <div className="row">
-            <h1 className="logo">watchr</h1>
+            <h1 className="logo col-12">watchr</h1>
         <div className="backgroundGradient row">
             <div className="col-3">
             <h1 className="logo">watchr</h1>
             </div>
-            <div className="col-3">
+            <div className="col-3 col-s-12">
                 <p className="footerHeading">Contact Us</p>
                 <p className="footerContent">adriisabz@gmail.com</p>
                 <p className="footerContent">09973950611</p>
@@ -24,6 +24,7 @@ const Footer = () =>{
             <div className="col-12">
                 <p className="footerContent">copyright 2022. All rights reserved</p>
             </div>
+            
         </div>
         </div>
     )

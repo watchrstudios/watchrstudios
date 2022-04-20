@@ -9,7 +9,12 @@ import Live from "./components/Live";
 import FAQs from "./components/FAQs";
 import Header from "./components/Header";
 import "./index.css"
-import Footer from "./Components/Footer";
+import Team from "./components/Team";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+
 
 const App = ()=> {
     return (
@@ -19,6 +24,8 @@ const App = ()=> {
                 <Services/>
                 <Live/>
                 <FAQs/>
+                <Team/>
+                <ContactUs/>
                 <Footer/>
             {/* <Header/> */}
         </div>
